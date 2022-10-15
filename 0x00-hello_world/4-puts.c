@@ -2,6 +2,7 @@
 
 /*
   *main - Entry point
+  * Description: 'the program print text with puts'
   *Return: Always 0 (Success)
  */
 

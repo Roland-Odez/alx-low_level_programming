@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
  *main - Entry point
+ * Description: 'the program prints text with printf'
  *Return: Always 0 (Success)
  */
 int main(void)
