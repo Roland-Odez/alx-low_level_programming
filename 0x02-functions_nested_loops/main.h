@@ -7,4 +7,8 @@ int _putchar(char c);
 * print _alphabet - lowercasealp
 */
 
-#endif
+void print_alphabet(void);
+
+/**
+*print all alphabet in lowercase
+*/
