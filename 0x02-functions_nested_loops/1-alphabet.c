@@ -11,8 +11,7 @@ void print_alphabet(void)
 	char alpa = 'a';
 	while (alpa < 'z')
 	{
-		_putchar(alpa);
-		alpa++;
+		_putchar(alpa++);
 	}
 	_putchar('\n');
 }
