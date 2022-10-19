@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_alphabet+x10 - Entry point
+*print_alphabet_x10 - Entry point
 *description: print lowercase alphabet x10
 *Return: Always 0 (Success)
 */
