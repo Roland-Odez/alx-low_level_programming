@@ -28,6 +28,12 @@ int _islower(int c);
 int _isalpha(int c);
 
 /**
-*check upper case
+*check for alphabet
+*/
+
+int print_sign(int n)
+
+/**
+*print sign
 */
 #endif
