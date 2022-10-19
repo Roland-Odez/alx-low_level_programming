@@ -75,4 +75,10 @@ void print_to_98(int n);
 /**
  * print numbers to 98
  */
+
+void print_times_table(int n);
+
+/**
+ * print nth number of multiplication table
+ */
 #endif
