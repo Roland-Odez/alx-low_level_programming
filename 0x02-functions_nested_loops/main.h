@@ -69,4 +69,10 @@ int add(int, int);
 /**
 *add two integers
 */
+
+void print_to_98(int n);
+
+/**
+ * print numbers to 98
+ */
 #endif
