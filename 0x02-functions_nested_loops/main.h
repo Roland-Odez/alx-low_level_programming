@@ -18,4 +18,10 @@ void print_alphabet_x10(void);
 /**
 *print all albet x10
 */
+
+int _islower(int c);
+
+/**
+*check lower case
+*/
 #endif
