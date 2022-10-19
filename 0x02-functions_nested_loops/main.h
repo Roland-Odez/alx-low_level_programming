@@ -44,4 +44,13 @@ int _abs(int n);
 /**
 *change to absolute
 */
+
+int print_last_digit(int);
+
+/**
+ *print_last_digit - print the last digit
+ *@int : interger
+ *Return: last digit
+*/
+
 #endif
