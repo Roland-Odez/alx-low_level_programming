@@ -18,10 +18,10 @@ int main(void)
 		b = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
 		{
-			sum_even = += sum;
+			sum_even += sum;
 		}
 	}
-	printf("%d\n", sum_of_evens);
+	printf("%d\n", sum_even);
 
 	return (0);
 }
