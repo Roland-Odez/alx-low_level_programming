@@ -53,4 +53,9 @@ int print_last_digit(int);
  *Return: last digit
 */
 
+void jack_bauer(void);
+
+/**
+ * print every last min of 24 hours
+ */
 #endif
