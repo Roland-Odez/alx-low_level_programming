@@ -24,4 +24,10 @@ int _islower(int c);
 /**
 *check lower case
 */
+
+int _isalpha(int c);
+
+/**
+*check upper case
+*/
 #endif
