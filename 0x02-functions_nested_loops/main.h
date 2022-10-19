@@ -31,10 +31,12 @@ int _isalpha(int c);
 *check for alphabet
 */
 
-int print_sign(int n)
+int print_sign(int n);
 
 /**
-*print sign
+* _abs - computer absolute value of integer
+* @int: integer
+* Return: absolute value
 */
 
 int _abs(int n);
