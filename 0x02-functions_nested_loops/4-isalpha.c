@@ -1,23 +1,21 @@
 #include "main.h"
 
 /**
-*_isalpha - checks for uppercase letters
-*@c:character to check
-*return: 1 for uppercase 0 for lowercase
+*_isalpha - checks for alphabetic character
+*@c: character to check
+*Return: 1 for alphabet 0 for not lowercase
 */
 
 int _isalpha(int c)
 {
-	int i , itr = 'Z';
 
-	for (i = 'A'; i <= itr; i++)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		if (c == i)
-		{
-			return (1);
-		}
+		return (1);
 	}
-
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
 
