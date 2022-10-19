@@ -58,4 +58,9 @@ void jack_bauer(void);
 /**
  * print every last min of 24 hours
  */
+
+void times_table(void);
+/**
+ * print the 9 nine 
+ */
 #endif
