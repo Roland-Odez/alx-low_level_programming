@@ -63,4 +63,10 @@ void times_table(void);
 /**
  * print the 9 nine 
  */
+
+int add(int, int);
+
+/**
+*add two integers
+*/
 #endif
