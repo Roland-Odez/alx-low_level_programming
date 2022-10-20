@@ -8,11 +8,11 @@
 int main(void)
 {
 	int counter, overflow;
-	unsigned long a =1, b = 1, sum = 0;
+	unsigned long a = 1, b = 1, sum = 0;
 	long a_hd, a_tl, b_hd, b_tl, sum_hd, sum_tl;
 
 	printf("1");
-	
+
 	for (counter = 2; counter < 98; counter++)
 	{
 		sum = a + b;
