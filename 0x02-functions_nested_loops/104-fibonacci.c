@@ -40,7 +40,7 @@ int main(void)
 		b_tl = sum_tl;
 	}
 
-	printf("\n")
+	printf("\n");
 
 	return (0);
 }
