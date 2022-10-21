@@ -14,6 +14,8 @@ int _isupper(char c)
 		if(i == c){
 		       return (1);
 		}
+
+		i++;
  	}
 
 	return (0);
