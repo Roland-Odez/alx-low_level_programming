@@ -6,7 +6,7 @@
  * @c: character to put
  */
 
-in _putchar(char c);
+int _putchar(char c);
 
 /**
  * reset_to_98 - updates value of pointer to 98
