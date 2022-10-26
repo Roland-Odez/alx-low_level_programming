@@ -48,7 +48,7 @@ int find_sign(char *s)
 
 	while (i < (idx_num_starts(s)))
 	{
-		if(s[i++] == '-')
+		if (s[i++] == '-')
 			negatives++;
 	}
 
@@ -60,7 +60,7 @@ int find_sign(char *s)
 
 /**
  * _atoi - convert string to int
- * $s: string to convert
+ * @s: string to convert
  * Return: integer
  */
 int _atoi(char *s)
