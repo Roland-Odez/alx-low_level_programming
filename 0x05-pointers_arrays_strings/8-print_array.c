@@ -17,6 +17,7 @@ void print_array(int *arr, int n)
 			printf("%d, ", arr[i]);
 		else
 			printf("%d", arr[i]);
+		i++;
 	}
 	printf("\n");
 }
