@@ -33,7 +33,7 @@ int idx_num_starts(char *s)
 		if (s[i] >=  '0' && s[i] <= '9')
 			return (i);
 	}
-	return (-1) /* return -1 if no digit found */
+	return (-1); /* return -1 if no digit found */
 }
 
 /**
@@ -49,7 +49,7 @@ int find_sign(char *s)
 	while (i < (idx_num_starts(s)))
 	{
 		if(s[i++] == '-')
-			negative++;
+			negatives++;
 	}
 
 	if (negatives % 2 != 0)
