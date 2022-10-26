@@ -20,7 +20,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strcpy - copies the string from pointed to src to string pointed to dest, including terminating null
+ * _strcpy - copies the string from pointer to pointer including null terminator
  * @dest:source to copy to
  * @src: source to copy from
  * Return: copy of original source
