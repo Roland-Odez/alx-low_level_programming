@@ -16,7 +16,7 @@ void print_diagsums(int *a, int size)
 	for (row = 0; row < size; row++)
 	{
 		i = (row * size) + row;
-		diagonal_sum_1 += a[0];
+		diagonal_sum_1 += a[i];
 	}
 
 	for (row = 1; row <= size; row++)
