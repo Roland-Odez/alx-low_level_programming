@@ -4,8 +4,8 @@
 /**
  * _strstr - locate and return pointer to first occurence of substring
  * @haystack: string to search
- * @needle: target substring to search for
- * Return: 0 on success
+ * @needle: target substring 
+ * Return: 0 
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	for(; *haystack != '\0'; haystack++)
 	{
 		char *i = haystack;
-		cha *p = needle;
+		char *p = needle;
 
 		while (*i == *p && *p != '\0')
 		{
